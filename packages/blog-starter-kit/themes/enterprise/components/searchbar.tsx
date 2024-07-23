@@ -106,11 +106,12 @@ export const Search = () => {
 	return (
 		<div className="relative col-span-1">
 			<input
+				dir="rtl"
 				type="text"
 				ref={searchInputRef}
 				onKeyUp={escapeSearchOnESC}
 				onChange={updateSearchQuery}
-				placeholder="Search blog posts…"
+				placeholder="جستوجو کنید..."
 				className="w-full rounded-full border border-slate-200 bg-slate-50 px-4 py-2 text-base focus:bg-transparent dark:border-neutral-800 dark:bg-neutral-800 dark:text-neutral-50 dark:placeholder:text-neutral-400 dark:hover:bg-neutral-950"
 			/>
 			{query && (

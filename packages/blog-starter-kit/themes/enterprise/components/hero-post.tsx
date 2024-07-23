@@ -16,7 +16,7 @@ export const HeroPost = ({ title, coverImage, date, excerpt, slug }: Props) => {
 	const postURL = `/${slug}`;
 
 	return (
-		<section className="grid grid-cols-1 gap-5">
+		<section dir="rtl" className="grid grid-cols-1 gap-5">
 			<div className="col-span-1">
 				<CoverImage
 					title={title}

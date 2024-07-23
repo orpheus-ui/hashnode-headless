@@ -24,7 +24,7 @@ export const SecondaryPost = ({ title, coverImage, date, excerpt, slug }: Props)
 					slug={slug}
 				/>
 			</div>
-			<div className="col-span-1 flex flex-col gap-2">
+			<div dir="rtl" className="col-span-1 flex flex-col gap-2">
 				<h1 className="text-lg font-semibold leading-tight text-slate-800 dark:text-neutral-50">
 					<Link
 						href={postURL}
